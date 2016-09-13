@@ -1,0 +1,42 @@
+<div class="page-header">
+  <h1>Products <small>All products!</small></h1>
+</div>
+
+<table class="table table-bordered table-striped">
+  <thead>
+    <tr>
+      <th>
+        Name
+      </th>
+      <th>
+        Price
+      </th>
+      <th>
+        Exercpt
+      </th>
+      <th>
+        Link
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @products.each do |product| %>
+      <tr>
+        <td>
+          <%= product.name %>
+        </td>
+        <td>
+          <%= number_to_currency product.price %>
+        </td>
+        <td>
+          <%= truncate product.description, length: 200 %>
+        </td>
+        <td>
+          <%= link_to 'View Product', product_path(id: product.id) %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= paginate @products %>
