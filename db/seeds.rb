@@ -1,3 +1,4 @@
+User.delete_all
 Product.delete_all
 
 500.times do
@@ -7,3 +8,5 @@ Product.delete_all
   @product.description = Faker::Hipster.paragraph(2, true)
   @product.save
 end
+
+User.create username: "joebobfrank", password: "12345678"
