@@ -1,24 +1,15 @@
-# README
+# An exploration into
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Slides:
 
-Things you may want to cover:
+<a href="https://speakerdeck.com/jwo/diy-rails-authentication">
+  ![img](slides.png)
+</a>
 
-* Ruby version
+[Download Slides PDF](DIY Rails Auth - by Jesse Wolgamott.pdf)
 
-* System dependencies
+Code:
+* Tag: 'before-demo' for before the creation of Auth
+* 52285ea3b7ec82e4728166a7cfb4ae6d8c44e430 - Adding Auth
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
