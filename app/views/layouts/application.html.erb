@@ -15,6 +15,11 @@
       <div class="container">
         <%= link_to 'Home', root_path %>
         <%= link_to 'Products', products_path %>
+
+        <% if current_user %>
+          <%= link_to "Sign Out #{current_user.username }", sign_out_path, method: :delete %>
+        <% end %>
+
       </div>
     </header>
 
